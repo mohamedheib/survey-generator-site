@@ -1,0 +1,121 @@
+body{
+    background-color: #eeeeee;
+    margin: 0px;
+}
+
+/* First section */
+.continer-all{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.continer1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+}
+
+.continer1 > .left-side > div {
+    padding: 12px;
+    text-transform: uppercase;
+}
+.left-side a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.left-side > div:hover{
+    border-bottom: 1px solid black;
+}
+
+.left-side a:hover{
+    color: black;
+}
+
+.rigth-side > div {
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+/* second section */
+
+.grid{
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1{
+    font-family: "Nimbus Mono PS";
+    background-color: #57636e;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    padding-bottom: 1px;
+    border-radius: 50px;
+}
+.correct-ans {
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.wrong-ans {
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: red;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid #qustion{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5a6772;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3{
+    background-color: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#progress{
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor: pointer;
+    background-color: #57636e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0px;
+}

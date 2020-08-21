@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+}
+
+.continer-all{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.continer1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+}
+
+.continer1 > .left-side > div {
+    padding: 12px;
+    text-transform: uppercase;
+}
+.left-side a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.left-side > div:hover{
+    border-bottom: 1px solid black;
+}
+
+.left-side a:hover{
+    color: black;
+}
+
+.rigth-side > div {
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+
+
+
+
+.grid{
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: #ff7676;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+
+.grid h1{
+    font-family: "Nimbus Mono PS";
+    background-color: #57636e;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    padding-bottom: 1px;
+    border-radius: 50px;
+}
+
+.text{
+    background-color: #04e5cc;
+    width: 250px;
+    font-size: 20px;
+    outline: 0px;
+
+}
+
+.pass{
+    background-color: #04e5cc;
+    width: 250px;
+    font-size: 20px;
+    outline: 0px;
+}
+
+.admin{
+    background-color: #04e5cc;
+    width: 250px;
+    font-size: 20px;
+    outline: 0px;
+}
+
+.btn{
+    background-color: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 40px 40px 40px 130px;
+    padding: 10px 10px;
+    outline: 0px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #57636e;
+}

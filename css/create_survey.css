@@ -1,0 +1,72 @@
+body{
+    background-color: #229977;
+    margin: 0px;
+}
+
+/* First section */
+.continer-all{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.continer1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left-side{
+    display: flex;
+}
+
+.continer1 > .left-side > div {
+    padding: 12px;
+    text-transform: uppercase;
+}
+.left-side a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.left-side > div:hover{
+    border-bottom: 1px solid black;
+}
+
+.left-side a:hover{
+    color: black;
+}
+
+.rigth-side > div {
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+/* second section */
+
+.items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.qustions{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.qustions > div{
+    display: flex;
+    margin: 2px;
+    padding: 8px;
+}
+
+.submitadd{
+    display: flex;
+    grid-template-columns: 1fr;
+}
+
+
+.submitadd > div{
+    display: flex;
+    padding: 4px;
+    color: black;
+}
+

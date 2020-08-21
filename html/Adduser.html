@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TGS</title>
+    <!-- page icon -->
+    <link rel="icon" href="../images/sgicon.png" type="image/icon type">
+    <!-- main page style -->
+    <link rel="stylesheet" href="../css/adduser.css">
+</head>
+
+<body>
+<div class="continer-all">
+    <section>
+        <div class="continer1">
+            <div class="left-side">
+                <div><a  id="homeb">Home</a></div>
+                <div><a id="aboutb"> About</a> </div>
+            </div>
+            <div class="rigth-side">
+                <div><img src="../images/sgicon.png" height="20%" width=20%></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid" id="grid1">
+            <h1 id="sub">Please insert new user details</h1>
+            <input class="text" type="text" id="username" placeholder="UserName"
+                   required="required" pattern="[A-Za-z0-9]{1,40}">
+            <br>
+            <input class="pass" type="password" id="password" placeholder="PassWord"
+                   required="required" pattern="[A-Za-z0-9]{1,40}">
+            <br>
+            <input class="admin" type="text" id="admin" placeholder="IsAdmin(Yes/NO)"
+                   required="required" pattern="[A-Za-z]{1,40}">
+            <br>
+            <button class="btn" id="btn">Sign Up </button>
+        </div>
+    </section>
+</div>
+</body>
+<script src="../javascript/adduser.js"></script>
+</html>
